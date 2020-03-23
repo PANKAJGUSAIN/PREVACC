@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PreVacc</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+          @import url('https://fonts.googleapis.com/css?family=Hanalei+Fill|Sniglet|Wendy+One&display=swap'); 
+          @import url('https://fonts.googleapis.com/css?family=Lobster|Righteous&display=swap'); </style>
+  </head>
+  <body>
+    <header>
+        <div class="header">
+    
+          </div>
+         <section id="home">
+              <img class="logo" src="images/logow.png"
+              style="widows: 100px;height:110px;float: left;padding-top:30px ;"
+              
+            />
+           
+
+      <ul id="li1">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#appf">App Features</a></li>
+        <li><a href="#appss">App Screenshots</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a  onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#logins">Login</a></li>
+        <li>
+            <a href="file:///C:/Users/HP/Desktop/PreVacc/inbox.html#logins" class="notification">
+                <span style="color:#f1f1f1">NOTIFICATIONS</span>
+                <span class="badge">*</span>
+            </a></li>
+        
+      </ul>
+      
+    </header>
+  
+  </section>
+  
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <button type="reg"><a href="file:///C:/Users/HP/Desktop/PreVacc/LOGIN.html">Register</a></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<div class="quote" style="text-align:center; margin-top:150px; ">
+  <p style="font-size: 50px;">"A TRACKER TO MANAGE ALL YOUR EXPENSES"</p>
+</div>
+    <section style="padding-top:150px;">
+      <p>
+        <img
+          class="photo-left"
+          src="images/s2.png"
+          style="widows: 200px;height:400px;margin-right:15px;float:left;"
+          ;
+        />
+        <div style="background-color:peachpuff;color: white;padding: 20px;">
+
+        <h2 class="h2">Welcome to PreVacc</h2>
+        <p>The name is an acronym for "Prevent Accident" but not preventing the accident altogether. The app is primarily focused on evading the unwanted delay at the time of accident.</p>
+        </div>
+        
+      </p>
+    </section>
+    <section style="padding-top: 250px;">
+        <h2  class="h2" id= "appf" style="text-align: center;">APP FEATURES</h2>
+        <div style="background-color:peachpuff ;color: white;padding: 20px;">
+          <p>
+              The idea of PreVacc revolves around the notion of saving an indiviual's life in an accident by notifying the respective authorities and the victim's relatives.
+            <pre>The notificaction will be in the form of distress signal with the accurate cordinates of the victim's location.</pre>
+            <pre>To deal with the false alarm, a time frame of 1 minute will be given to cancel the notification.</pre></p>
+
+
+          </p>
+
+        </div>
+    </section>
+    <section style="padding-top: 250px;">
+        <h2 class="h2" id="appss" style="text-align: center;">APP SCREENSHOTS</h2>
+        <img src="images/s2.png" style="padding:30px;widows: 200px;height:400px"/>
+        <img src="images/s4.png" style="padding:30px;widows: 200px;height:400px"/>
+        <img src="images/s3.png" style="padding:30px;widows: 200px;height:400px"/>
+        <img src="images/s1.png" style="padding:30px;widows: 200px;height:400px"/>
+
+    </section>
+    <section style="padding-top: 500px;">
+        <h2 class="h2" id="contact" style="text-align: center;">GET IN TOUCH</h2>
+                <div style="background-color:peachpuff ;color: white;padding: 20px;">
+
+        <div style="background-color:peru;color: white;padding: 20px;">
+
+        <form action="index.html">
+            <label for="fname"></label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+        
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Your E-mail..">
+        
+            <label for="subject"></label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit" onClick="validateForm(this.form)" >
+          </form>
+          <div>
+    </section>
+    <section style="padding-top: 50px;">
+      <h2 class="h2" id="about" style="text-align: center;">ABOUT US</h2>
+
+      <!--<div style="background-color:#DEB887 ;color: white;padding: 20px;">
+          <p>Application is created by:
+            <pre>Ritvik Mathur</pre>
+            <pre>Pankaj Gusain</pre>
+            <pre>Hitendra</pre>
+            <pre>Jayant Agarwal</pre>
+            <pre>Anjali Singh</pre></p> </p>
+
+        </div>-->
+      
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img class="contact" src="images/ritvik.jpg" alt="Jane" style="width:55%; height:300px; border-radius: 50%; margin-left: 23%;margin-right: 10%;">
+      <div class="container" style="text-align: center;">
+        <h2>Ritvik Mathur</h2>
+        <p class="title">CEO & Founder</p>
+        <p>I am CODER.</p>
+        <p>ritvik@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="contact" src="images/pankaj.jpg" alt="Mike" style="width:55%; height:300px; border-radius: 50%; margin-left: 23%;margin-right: 10%;">
+      <div class="container" style="text-align: center;">
+        <h2>Pankaj Gusain</h2>
+        <p class="title">Website developer</p>
+        <p>I m cool</p>
+        <p>pankaj@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <img class="contact"src="images/anjali.jpg" alt="Mike" style="width:55%; height:300px; border-radius: 50%; margin-left: 23%;margin-right: 10%; bl">
+      <div class="container" style="text-align: center;">
+        <h2>Anjali Singh</h2>
+        <p class="title">Website developer</p>
+        <p>Hello world</p>
+        <p>attri2707@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <img class="contact"src="images/jayant.jpg" alt="Mike" style="width:55%; height:300px; border-radius: 50%; margin-left: 23%;margin-right: 10%;">
+      
+      <div class="container" style="text-align: center;">
+        <h2>Jayant Agarwal</h2>
+        <p class="title">Art Director</p>
+        <p>what's up?</p>
+        <p>jayant@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+              </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img class="contact"src="images/hiten.jpg" alt="John" style="width:50%; height:300px; border-radius: 50%; margin-left: 23%;margin-right: 10%;">
+      <div class="container" style="text-align: center;">
+        <h2>Hitendra</h2>
+        <p class="title">Designer</p>
+        <p>I m noob.</p>
+        <p>hitendra@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  </body>
+  <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
